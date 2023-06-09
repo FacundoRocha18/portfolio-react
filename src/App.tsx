@@ -1,5 +1,5 @@
 import './App.css'
-import { Header, Hero, About } from './components'
+import { Header, Hero, About, Services } from './components'
 
 export const App = () => {
 	return (
@@ -9,6 +9,8 @@ export const App = () => {
 			<Hero />
 			<hr className="destination" id="about" />
 			<About />
+			<hr className="destination" id="services" />
+			<Services />
 		</>
 	)
 }

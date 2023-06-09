@@ -2,9 +2,51 @@
 
 @layer base {
 	#root {
+		padding: 0;
 		margin: 0;
+		min-width: 100%;
+	}
+
+	:root {
+
+		/* Colors */
+		--accent-color: #ABEBC6;
+		--item-bg-color: #24242425;
+		--main-text-color: #e6e6e6;
+		--secondary-text-color: #242424;
+		
+	
+		/* Font weights */
+		--extra-light-font: 200;
+		--light-font: 300;
+		--medium-font: 400;
+		--semi-bold-font: 500;
+		--bold-font: 700;
+	
+		/* Gradients */
+		--background-gradient: linear-gradient(145deg, rgba(23,23,23,1) 30%, rgba(11,11,11,1) 80%);
+		--accent-color-gradient: linear-gradient(145deg, rgba(171, 235, 192, 1) 30%, rgb(122, 221, 163) 80%);
+		--accent-dark-color-gradient: linear-gradient(145deg, rgb(125, 202, 151) 30%, rgb(101, 201, 143) 80%);
+	
+	}
+
+	html {
+		scroll-behavior: smooth;
 	}
 }
 
 @tailwind components;
+
+@layer components {
+	.contact-nav-btn a {
+		background-color: var(--accent-color);
+		background: var(--accent-color-gradient);
+		border-radius: .5rem;
+		color: var(--secondary-text-color, #242424);
+		font-weight: var(--medium-font);
+		padding: 1.5rem 2rem;
+		transition: all .5s;
+	}
+}
+
 @tailwind utilities;
