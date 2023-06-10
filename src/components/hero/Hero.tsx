@@ -4,12 +4,14 @@ import name from '../../assets/img/Name-iso.png'
 export const Hero = () => {
 	return (
 		<>
-			<div className="website-first-content articles">
-				<div className="main-content-image-wrapper">
-					<img src={heroPhoto} alt="Facundo Rocha´s photo" />
+			<div className="flex flex-col my-0 mx-auto w-14 articles">
+				<div className="my-16 mx-auto">
+					<img src={heroPhoto} height={270} width={270} alt="Facundo Rocha´s photo" />
 				</div>
-				<div className="main-content-text-wrapper">
-					<div className="image"><img src={name} alt="Facundo Rocha" /></div>
+				<div className="h-fit w-96 my-0 mx-auto">
+					<div className="my-0 mx-auto">
+						<img src={name} alt="Facundo Rocha" />
+					</div>
 					<hr />
 					<div className="subtext">
 						<h3>Fullstack web developer</h3>
