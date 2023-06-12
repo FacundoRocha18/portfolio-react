@@ -4,7 +4,7 @@ import name from '../../assets/img/Name-iso.png'
 export const Hero = () => {
 	return (
 		<>
-			<div className="flex flex-col my-0 mx-auto w-14 articles">
+			<div className="flex flex-col m-0 w-full">
 				<div className="my-16 mx-auto">
 					<img src={heroPhoto} height={270} width={270} alt="Facundo Rocha´s photo" />
 				</div>
