@@ -5,6 +5,8 @@ export * from './info/Services'
 export * from './info/Repositories'
 export * from './info/References'
 export * from './contact/Contact'
+export * from './common/Icon'
+
 
 
 

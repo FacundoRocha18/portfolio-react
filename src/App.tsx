@@ -7,8 +7,8 @@ export const App = () => {
 
 	return (
 		<>
-			<Header />
 			<hr className="anchor" id="home" />
+			<Header />
 			<Hero />
 			<hr className="anchor" id="about" />
 			<About />

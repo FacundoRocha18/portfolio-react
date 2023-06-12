@@ -75,11 +75,6 @@ input {
 			margin: 20rem auto;
 			width: 80%;
 	}
-
-	.center-title {
-			margin: 3rem auto;
-			text-align: center;
-	}
 }
 
 .change-header-color {
@@ -387,7 +382,7 @@ input {
 	margin: 0 auto;
 }
 
-.testominals-item {
+.testiminals-item {
 	background-color: var(--item-bg-color);
 	border-radius: 1rem;
 	padding: 3rem;
@@ -745,11 +740,6 @@ input {
 	.articles {
 			margin: 10rem auto;
 			width: 90%;
-	}
-
-	.center-title {
-			margin: 2rem auto;
-			text-align: center;
 	}
 
 	/* Header */

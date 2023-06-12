@@ -4,7 +4,7 @@ export const About = () => {
 	return (
 		<div>
 			<div className="website-about-content articles">
-				<div className="center-title">
+				<div className="text-center">
 					<h2>Let me introduce myself</h2>
 				</div>
 				<div className="presentation-wrapper">

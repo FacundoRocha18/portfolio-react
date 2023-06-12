@@ -6,15 +6,15 @@ export const Hero = () => {
 		<>
 			<div className="flex flex-col m-0 w-full">
 				<div className="my-16 mx-auto">
-					<img src={heroPhoto} height={270} width={270} alt="Facundo Rocha´s photo" />
+					<img src={heroPhoto} height={400} width={400} alt="Facundo Rocha´s photo" />
 				</div>
-				<div className="h-fit w-96 my-0 mx-auto">
+				<div className="h-fit w-fit my-0 mx-auto">
 					<div className="my-0 mx-auto">
-						<img src={name} alt="Facundo Rocha" />
+						<img src={name} height={200} width={400} alt="Facundo Rocha" />
 					</div>
-					<hr />
-					<div className="subtext">
-						<h3>Fullstack web developer</h3>
+					<hr className='h-1 bg-[#ABEBC6] border-[#ABEBC6] rounded'/>
+					<div className="subtext mt-4">
+						<h3>Desarrollador web Fullstack</h3>
 					</div>
 				</div>
 			</div>

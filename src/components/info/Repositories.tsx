@@ -1,5 +1,5 @@
 import { IRepository } from "../../vite-env"
-import { RepoCard } from "./RepoCard"
+import { RepoCard } from "./Repositories.card"
 
 export const Repositories = (props: { repos: IRepository[] }) => {
 	return (
