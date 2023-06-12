@@ -1,5 +1,5 @@
 import './App.css'
-import { Header, Hero, About, Services, Repositories, References } from './components'
+import { Header, Hero, About, Services, Repositories, References, Contact } from './components'
 import { useFetchRepos } from './hooks/useFetchRepos'
 
 export const App = () => {
@@ -18,6 +18,8 @@ export const App = () => {
 			<Repositories repos={repos} />
 			<hr className="anchor" id="references"></hr>
 			<References />
+			<hr className="anchor" id="contact"></hr>
+			<Contact />
 		</>
 	)
 }

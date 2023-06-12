@@ -4,5 +4,7 @@ export * from './info/About'
 export * from './info/Services'
 export * from './info/Repositories'
 export * from './info/References'
+export * from './contact/Contact'
+
 
 
